@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a.btn {
+  background-color: #1d809f;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.6s;
+}
+a.btn:hover {
+  background-color: #22677c;
+}
+/* Header start */
+header {
+  background-image: url(../assets/img/bg-masthead.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 300px 0;
+  height: 100vh;
+  text-align: center;
+}
+header .text-holder h1 {
+  font-size: 50px;
+}
+header .text-holder h3 {
+  margin: 10px 0 50px 0;
+  font-style: italic;
+}
+/* Header end */
+
+/* Project start */
+#project {
+  text-align: center;
+  padding: 150px 0;
+}
+#project .text-holder h2 {
+  font-size: 30px;
+}
+#project .text-holder p {
+  margin: 10px 0 50px 0;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+#project .text-holder a {
+  color: #1d809f;
+}
+#project .text-holder a:hover {
+  color: #22677c;
+}
+#project .btn {
+  background-color: rgb(48, 43, 43);
+}
+#project .btn:hover {
+  background-color: black;
+}
+/* Project end */
+
+/* Services start */
+#services {
+  padding: 150px 0;
+  background-color: #1d809f;
+  color: #fff;
+  text-align: center;
+}
+#services .text-holder h4 {
+  color: gold;
+}
+#services .text-holder h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+#services .wrapper {
+  width: 80%;
+  margin: auto;
+}
+#services .icon {
+  width: 25%;
+  float: left;
+}
+#services i {
+  color: #1d809f;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 50%;
+}
+#services .icon p {
+  opacity: 0.6;
+}
+#services .icon h2 {
+  margin: 10px 0;
+}
+/* Services end */
+
+/* Download start */
+#download {
+  background-image: url(../assets/img/bg-callout.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+}
+#download h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+/* Download end */
+
+/* Portfolio start */
+#portfolio {
+  padding: 100px 0;
+}
+#portfolio .wrapper {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+#portfolio h4 {
+  color: goldenrod;
+}
+#portfolio h2 {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+#portfolio .item {
+  width: 50%;
+  float: left;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  clip-path: inset(0);
+  transition: clip-path 0.6s;
+}
+#portfolio .item:hover {
+  clip-path: inset(20px);
+}
+#portfolio .item:nth-child(1) {
+  background-image: url(../assets/img/portfolio-1.jpg);
+}
+#portfolio .item:nth-child(2) {
+  background-image: url(../assets/img/portfolio-2.jpg);
+}
+#portfolio .item:nth-child(3) {
+  background-image: url(../assets/img/portfolio-3.jpg);
+}
+#portfolio .item:nth-child(4) {
+  background-image: url(../assets/img/portfolio-4.jpg);
+}
+#portfolio p {
+  opacity: 0.6;
+}
+#portfolio .item .text-holder {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  text-align: left;
+}
+/* Portfolio end */
+
+/* Resist start */
+#resist {
+  padding: 100px 0;
+  background-color: #1d809f;
+  text-align: center;
+}
+#resist h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+#resist a:nth-child(2) {
+  background-color: rgb(255, 254, 254);
+  color: black;
+}
+#resist a:nth-child(3) {
+  background-color: rgb(48, 43, 43);
+}
+#resist a:nth-child(3):hover {
+  background-color: black;
+}
+/* Resist end */
+
+/* Footer start */
+footer {
+  padding: 50px 0;
+}
+footer .wrapper {
+  text-align: center;
+}
+footer i {
+  background-color: #1d809f;
+  color: #fff;
+  padding: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+footer i:hover {
+  background-color: #22677c;
+}
+footer h5 {
+  margin-top: 40px;
+  opacity: 0.6;
+}
+/* Footer end */
